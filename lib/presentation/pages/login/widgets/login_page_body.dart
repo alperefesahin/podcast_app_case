@@ -32,7 +32,7 @@ class LoginPageBody extends StatelessWidget {
             ),
             EmailInputField(state: state),
             textWidget(
-              padding: const EdgeInsets.only(bottom: 8, top: 8, left: 25),
+              padding: const EdgeInsets.only(top: 8, left: 25),
               text: passwordText,
               textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.w400, color: whiteColor),
             ),
