@@ -6,6 +6,6 @@ const String firstScreenBodyText = "Lorem Ipsum is simply dummy text Lorem Ipsum
 const String secondScreenBodyText = "There are many variations of passages of Lorem Ipsum available";
 const String thirdScreenBodyText = "Conversations about science, tech, history, philosophu, and nature intelligence";
 
-const String loginPageText = "Login Page";
+
 const String next = "Next";
 const String skip = "Skip";

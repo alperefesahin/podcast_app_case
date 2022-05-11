@@ -5,7 +5,7 @@ import 'package:crop_experience_agency_case/presentation/pages/introduction/cons
 import 'package:crop_experience_agency_case/presentation/pages/introduction/widgets/introduction_screens.dart';
 import 'package:crop_experience_agency_case/presentation/pages/introduction/constants/paddings.dart';
 import 'package:crop_experience_agency_case/presentation/pages/introduction/constants/texts.dart';
-import 'package:crop_experience_agency_case/presentation/pages/introduction/widgets/buttons.dart';
+import 'package:crop_experience_agency_case/presentation/pages/introduction/widgets/custom_button.dart';
 import 'package:crop_experience_agency_case/presentation/routes/router.gr.dart';
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';

@@ -13,7 +13,7 @@ class Password extends FormzInput<String, PasswordValidationError> {
     if (value.isEmpty) {
       return PasswordValidationError.empty;
     }
-    return _passwordRegExp.hasMatch(value) && value.length < 10 ? null : PasswordValidationError.invalid;
+    return _passwordRegExp.hasMatch(value) && value.length >= 6 ? null : PasswordValidationError.invalid;
   }
 }
 
