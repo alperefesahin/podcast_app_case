@@ -11,7 +11,7 @@ Container customButton({required String buttonText}) {
       buttonText,
       minFontSize: 17,
       maxFontSize: 21,
-      style: const TextStyle(fontWeight: FontWeight.w600, color: Colors.white),
+      style: const TextStyle(fontWeight: FontWeight.w600, color: whiteColor),
     ),
   );
 }

@@ -7,7 +7,7 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final AppRouter _appRouter = AppRouter();
-    
+
     return MaterialApp.router(
       title: "CROP Experience Agency",
       debugShowCheckedModeBanner: false,
