@@ -9,6 +9,7 @@ class AuthTextField extends StatelessWidget {
   final bool isRequiredField;
   final String? error;
   final EdgeInsets padding;
+  final double borderRadiusCircularValue;
 
   const AuthTextField({
     Key? key,
@@ -19,6 +20,7 @@ class AuthTextField extends StatelessWidget {
     this.isRequiredField = false,
     this.error,
     this.padding = const EdgeInsets.all(15),
+    this.borderRadiusCircularValue = 20,
   }) : super(key: key);
 
   @override
@@ -35,7 +37,7 @@ class AuthTextField extends StatelessWidget {
           hintText: isRequiredField ? '$hint*' : hint,
           hintStyle: const TextStyle(color: inputHintTextColor),
           border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(borderRadiusCircularValue),
             borderSide: const BorderSide(
               width: 0,
               style: BorderStyle.none,

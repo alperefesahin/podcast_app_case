@@ -6,12 +6,12 @@ import 'package:crop_experience_agency_case/presentation/pages/login/login_page.
 @MaterialAutoRouter(
   replaceInRouteName: 'Page,Route',
   routes: <AutoRoute>[
-    AutoRoute(page: IntroductionPage, initial: true),
+    AutoRoute(page: IntroductionPage),
     AutoRoute(
       page: LoginPage,
     ),
     AutoRoute(
-      page: HomePage,
+      page: HomePage, initial: true
     ),
   ],
 )
