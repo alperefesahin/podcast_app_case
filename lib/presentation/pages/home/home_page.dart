@@ -1,13 +1,6 @@
-import 'package:auto_size_text/auto_size_text.dart';
 import 'package:crop_experience_agency_case/infrastructure/api/api.dart';
 import 'package:crop_experience_agency_case/presentation/pages/home/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/constants/texts.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/green_straight_line.dart';
 import 'package:crop_experience_agency_case/presentation/pages/home/widgets/home_page_body.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/notification_icon.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/screen_tab.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/search_bar.dart';
-
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -26,7 +19,7 @@ class HomePage extends StatelessWidget {
               if (!snapshot.hasData) {
                 return const Center(child: CircularProgressIndicator());
               } else {
-                return HomePageBody();
+                return const HomePageBody();
               }
             }
             return const Center(child: CircularProgressIndicator());

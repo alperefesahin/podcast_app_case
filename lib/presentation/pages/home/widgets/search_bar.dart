@@ -8,7 +8,7 @@ class SearchBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AuthTextField(
-      padding: const EdgeInsets.only(left: 25, right: 8, top: 25),
+      padding: const EdgeInsets.only(left: 25, top: 40),
       borderRadiusCircularValue: 10,
       hint: searchBarHintText,
       keyboardType: TextInputType.emailAddress,

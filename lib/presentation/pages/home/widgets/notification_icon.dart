@@ -6,9 +6,14 @@ class NotificationIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.only(right: 15, top: 25),
-      child: Icon(Icons.notifications, color: whiteColor),
+    return Padding(
+      padding: const EdgeInsets.only(top: 40, right: 5),
+      child: IconButton(
+          onPressed: () {},
+          icon: const Icon(
+            Icons.notifications,
+            color: whiteColor,
+          )),
     );
   }
 }

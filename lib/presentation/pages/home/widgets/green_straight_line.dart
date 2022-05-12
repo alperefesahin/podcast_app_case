@@ -7,7 +7,7 @@ class GreenStraightLine extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(left: 25, top: 5),
+      padding: const EdgeInsets.only(left: 20),
       child: Container(
         height: 3,
         width: 60,

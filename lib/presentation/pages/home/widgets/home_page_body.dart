@@ -23,13 +23,13 @@ class HomePageBody extends StatelessWidget {
           children: [
             Column(
               children: const [
-                ScreenTab(text: forYou, fontWeight: FontWeight.w500, textColor: whiteColor),
+                ScreenTab(text: forYou, fontWeight: FontWeight.w500, textColor: whiteColor, leftPadding: 20,),
                 GreenStraightLine(),
               ],
             ),
-            const ScreenTab(text: podcast, fontWeight: FontWeight.w400, textColor: screenTabTextsColor),
-            const ScreenTab(text: radio, fontWeight: FontWeight.w400, textColor: screenTabTextsColor),
-            const ScreenTab(text: audiobook, fontWeight: FontWeight.w400, textColor: screenTabTextsColor),
+            const ScreenTab(text: podcast, fontWeight: FontWeight.w400, textColor: screenTabTextsColor, leftPadding: 5,),
+            const ScreenTab(text: radio, fontWeight: FontWeight.w400, textColor: screenTabTextsColor, leftPadding: 5,),
+            const ScreenTab(text: audiobook, fontWeight: FontWeight.w400, textColor: screenTabTextsColor, leftPadding: 5,),
           ],
         )
       ],
