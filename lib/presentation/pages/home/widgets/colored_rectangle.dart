@@ -7,7 +7,7 @@ class ColoredRectangle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(left: 25, right: 25, top: 20),
+      padding: const EdgeInsets.only(left: 25, right: 25, top: 20, bottom: 10),
       child: Container(
         width: MediaQuery.of(context).size.width,
         height: 170,
