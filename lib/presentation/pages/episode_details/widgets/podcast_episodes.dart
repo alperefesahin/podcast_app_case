@@ -38,6 +38,7 @@ class PodcastEpisodes extends StatelessWidget {
                     podcastImageUrl: podcastImageUrl,
                     episode: episode,
                     episodeName: episodeName,
+                    podcastOwnersName: podcastOwnersName,
                   );
                 }
               }

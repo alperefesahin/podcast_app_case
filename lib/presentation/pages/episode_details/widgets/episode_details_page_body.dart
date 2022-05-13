@@ -55,7 +55,7 @@ class EpisodeDetailsPageBody extends StatelessWidget {
             padding: const EdgeInsets.only(left: 25, top: 15, bottom: 15),
             child: Row(
               children: [
-                const PlayButton(),
+                  PlayButton(podcastName: podcastName, podcastImageUrl: podcastImageUrl, podcastOwnersName: podcastOwnersName),
                 CustomIconButton(buttonPadding: const EdgeInsets.only(left: 20), icon: CupertinoIcons.share, iconSize: 25, onPressed: () {}),
                 CustomIconButton(buttonPadding: const EdgeInsets.only(left: 15), icon: CupertinoIcons.heart, iconSize: 25, onPressed: () {})
               ],

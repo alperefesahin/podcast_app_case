@@ -3,6 +3,7 @@ import 'package:crop_experience_agency_case/presentation/pages/episode_details/e
 import 'package:crop_experience_agency_case/presentation/pages/home/home_page.dart';
 import 'package:crop_experience_agency_case/presentation/pages/introduction/introduction_page.dart';
 import 'package:crop_experience_agency_case/presentation/pages/login/login_page.dart';
+import 'package:crop_experience_agency_case/presentation/pages/player/player_page.dart';
 
 @MaterialAutoRouter(
   replaceInRouteName: 'Page,Route',
@@ -11,6 +12,7 @@ import 'package:crop_experience_agency_case/presentation/pages/login/login_page.
     AutoRoute(page: LoginPage, initial: true),
     AutoRoute(page: HomePage),
     AutoRoute(page: EpisodeDetailsPage),
+    AutoRoute(page: PlayerPage),
   ],
 )
 class $AppRouter {}
