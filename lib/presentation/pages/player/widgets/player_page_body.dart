@@ -29,7 +29,7 @@ class PlayerPageBody extends StatelessWidget {
             placeholder: (context, url) => const CircularProgressIndicator(),
             imageUrl: podcastImageUrl,
             imageBuilder: (context, imageProvider) => Container(
-              height: 400,
+              height: 375,
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
                   borderRadius: const BorderRadius.all(Radius.circular(10)),
