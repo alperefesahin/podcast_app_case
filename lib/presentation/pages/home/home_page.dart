@@ -20,9 +20,12 @@ class HomePage extends StatelessWidget {
                 if (!snapshot.hasData) {
                   return const Center(child: CircularProgressIndicator());
                 } else {
+                  final podcastData = snapshot.data;
+
                   final _pageOptions = [
-                    HomePageBody(podcastData: snapshot.data),
-                    // and more pages here. Since we have just 1 screen in bottom nav bar, we can use simply just [0] notation
+                    HomePageBody(podcastData: podcastData),
+                    // and more pages here. Since we have just 1 screen in bottom nav bar,
+                    // we can use simply just [0] notation
                   ];
                   return _pageOptions[0];
                 }

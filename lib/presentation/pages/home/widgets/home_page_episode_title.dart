@@ -3,16 +3,17 @@ import 'package:crop_experience_agency_case/presentation/pages/home/constants/co
 import 'package:flutter/material.dart';
 
 class HomePageEpisodeTitle extends StatelessWidget {
-  const HomePageEpisodeTitle({Key? key, required this.index, required this.podcastData}) : super(key: key);
+  const HomePageEpisodeTitle({Key? key, required this.index, required this.podcastName}) : super(key: key);
   final int index;
-  final dynamic podcastData;
+  final String podcastName;
+
   @override
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.only(top: 10),
       width: 120,
       child: AutoSizeText(
-        podcastData[index]["location"]["name"],
+        podcastName,
         minFontSize: 14,
         maxFontSize: 17,
         maxLines: 1,

@@ -1,4 +1,5 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:crop_experience_agency_case/presentation/pages/episode_details/episode_details_page.dart';
 import 'package:crop_experience_agency_case/presentation/pages/home/home_page.dart';
 import 'package:crop_experience_agency_case/presentation/pages/introduction/introduction_page.dart';
 import 'package:crop_experience_agency_case/presentation/pages/login/login_page.dart';
@@ -7,12 +8,9 @@ import 'package:crop_experience_agency_case/presentation/pages/login/login_page.
   replaceInRouteName: 'Page,Route',
   routes: <AutoRoute>[
     AutoRoute(page: IntroductionPage),
-    AutoRoute(
-      page: LoginPage,
-    ),
-    AutoRoute(
-      page: HomePage, initial: true
-    ),
+    AutoRoute(page: LoginPage, initial: true),
+    AutoRoute(page: HomePage),
+    AutoRoute(page: EpisodeDetailsPage),
   ],
 )
 class $AppRouter {}

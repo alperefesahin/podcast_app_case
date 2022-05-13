@@ -3,13 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 
 class LinearPercentageBar extends StatelessWidget {
-  const LinearPercentageBar({Key? key}) : super(key: key);
+  const LinearPercentageBar({Key? key, required this.linearPercentIndicatiorWith, required this.leftPadding}) : super(key: key);
+  final double linearPercentIndicatiorWith;
+  final double leftPadding;
 
   @override
   Widget build(BuildContext context) {
     return LinearPercentIndicator(
-        padding: const EdgeInsets.only(top: 5, left: 10, right: 10),
-        width: 140,
+        padding:  EdgeInsets.only(top: 5, left: leftPadding, right: 10),
+        width: linearPercentIndicatiorWith,
         lineHeight: 13.5,
         percent: 0.75,
         backgroundColor: percentageIndicatorBackgroundColor,

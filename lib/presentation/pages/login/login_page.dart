@@ -17,7 +17,7 @@ class LoginPage extends StatelessWidget {
           child: Scaffold(
               resizeToAvoidBottomInset: false,
               backgroundColor: pageBackgroundColor,
-              appBar: AppBarWidget(),
+              appBar: AppBarWidget(appBarActions: const []),
               body: LoginPageBody(
                 state: state,
               )),
