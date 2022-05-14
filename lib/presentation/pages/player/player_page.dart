@@ -31,7 +31,7 @@ class PlayerPage extends StatelessWidget {
       body: PlayerPageBody(
         podcastImageUrl: podcastImageUrl,
         podcastName: podcastName,
-        podcastOwnersName: "$podcastOwner$sDotEpisode",
+        podcastOwnersName: "$podcastOwner $podcast",
       ),
     );
   }

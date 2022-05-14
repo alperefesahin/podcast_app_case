@@ -41,7 +41,7 @@ class EpisodeDetailsPageBody extends StatelessWidget {
             textColor: podcastOwnersNameColor,
             minFontSize: 16,
             maxFontSize: 18,
-            text: "$podcastOwnersName$sDotEpisode",
+            text: "$podcastOwnersName $podcast",
             fontWeight: FontWeight.w500,
           ),
           const PodcastText(
