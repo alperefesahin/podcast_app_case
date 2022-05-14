@@ -22,7 +22,7 @@ class CustomListTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () => AutoRouter.of(context).replace(PlayerRoute(
+      onTap: () => AutoRouter.of(context).navigate(PlayerRoute(
         podcastImageUrl: podcastImageUrl,
         podcastName: episodeName,
         podcastOwner: podcastOwnersName,

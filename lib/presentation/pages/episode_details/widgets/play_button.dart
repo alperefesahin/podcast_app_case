@@ -21,7 +21,7 @@ class PlayButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        AutoRouter.of(context).replace(PlayerRoute(
+        AutoRouter.of(context).navigate(PlayerRoute(
           podcastImageUrl: podcastImageUrl,
           podcastName: podcastName,
           podcastOwner: podcastOwnersName,
