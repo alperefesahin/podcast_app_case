@@ -22,10 +22,7 @@ class CustomBottomNavigationBar extends StatelessWidget {
             backgroundColor: pageBackgroundColor,
             icon: Padding(
               padding: EdgeInsets.only(bottom: 5.0),
-              child: Icon(
-                CupertinoIcons.play_rectangle_fill,
-                color: percentageIndicatorForegroundColor,
-              ),
+              child: Icon(CupertinoIcons.play_rectangle_fill, color: percentageIndicatorForegroundColor),
             ),
             label: home,
           ),

@@ -19,18 +19,12 @@ class HomePageBody extends StatelessWidget {
       child: Column(
         children: [
           Row(
-            children: const [
-              Expanded(child: SearchBar()),
-              NotificationIcon(),
-            ],
+            children: const [Expanded(child: SearchBar()), NotificationIcon()],
           ),
           Row(
             children: [
               Column(
-                children: const [
-                  ScreenTab(text: forYou, fontWeight: FontWeight.w500, textColor: whiteColor, leftPadding: 20),
-                  GreenStraightLine(),
-                ],
+                children: const [ScreenTab(text: forYou, fontWeight: FontWeight.w500, textColor: whiteColor, leftPadding: 20), GreenStraightLine()],
               ),
               const ScreenTab(text: podcast, fontWeight: FontWeight.w400, textColor: screenTabTextsColor, leftPadding: 5),
               const ScreenTab(text: radio, fontWeight: FontWeight.w400, textColor: screenTabTextsColor, leftPadding: 5),

@@ -10,7 +10,7 @@ class LinearPercentageBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LinearPercentIndicator(
-        padding:  EdgeInsets.only(top: 5, left: leftPadding, right: 10),
+        padding: EdgeInsets.only(top: 5, left: leftPadding, right: 10),
         width: linearPercentIndicatiorWith,
         lineHeight: 13.5,
         percent: 0.75,

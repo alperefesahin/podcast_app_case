@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
 
                   final _pageOptions = [
                     HomePageBody(podcastData: podcastData),
-                    // and more pages here. Since we have just 1 screen in bottom nav bar,
+                    // and more pages here. Since we use just 1 screen in bottom nav bar,
                     // we can use simply just [0] notation
                   ];
                   return _pageOptions[0];

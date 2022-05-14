@@ -11,10 +11,7 @@ class GreenStraightLine extends StatelessWidget {
       child: Container(
         height: 3,
         width: 60,
-        decoration: const BoxDecoration(
-          borderRadius: BorderRadius.all(Radius.circular(15)),
-          color: greenStraightLineColor,
-        ),
+        decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(15)), color: greenStraightLineColor),
       ),
     );
   }

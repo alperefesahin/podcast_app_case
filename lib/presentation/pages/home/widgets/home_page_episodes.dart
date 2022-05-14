@@ -25,6 +25,7 @@ class HomePageEpisodes extends StatelessWidget {
           final String podcastName = podcastData[index]["origin"]["name"];
           final String podcastOwnersName = podcastData[index]["name"];
           final List podcastEpisodes = podcastData[index]["episode"];
+
           return InkWell(
             onTap: () {
               AutoRouter.of(context).replace(EpisodeDetailsRoute(
