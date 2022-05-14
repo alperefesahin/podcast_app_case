@@ -8,8 +8,8 @@ import 'package:crop_experience_agency_case/presentation/pages/player/player_pag
 @MaterialAutoRouter(
   replaceInRouteName: 'Page,Route',
   routes: <AutoRoute>[
-    AutoRoute(page: IntroductionPage),
-    AutoRoute(page: LoginPage, initial: true),
+    AutoRoute(page: IntroductionPage, initial: true),
+    AutoRoute(page: LoginPage),
     AutoRoute(page: HomePage),
     AutoRoute(page: EpisodeDetailsPage),
     AutoRoute(page: PlayerPage),

@@ -62,8 +62,8 @@ class AppRouter extends _i6.RootStackRouter {
 
   @override
   List<_i6.RouteConfig> get routes => [
-        _i6.RouteConfig(IntroductionRoute.name, path: '/introduction-page'),
-        _i6.RouteConfig(LoginRoute.name, path: '/'),
+        _i6.RouteConfig(IntroductionRoute.name, path: '/'),
+        _i6.RouteConfig(LoginRoute.name, path: '/login-page'),
         _i6.RouteConfig(HomeRoute.name, path: '/home-page'),
         _i6.RouteConfig(EpisodeDetailsRoute.name,
             path: '/episode-details-page'),
@@ -74,8 +74,7 @@ class AppRouter extends _i6.RootStackRouter {
 /// generated route for
 /// [_i1.IntroductionPage]
 class IntroductionRoute extends _i6.PageRouteInfo<void> {
-  const IntroductionRoute()
-      : super(IntroductionRoute.name, path: '/introduction-page');
+  const IntroductionRoute() : super(IntroductionRoute.name, path: '/');
 
   static const String name = 'IntroductionRoute';
 }
@@ -83,7 +82,7 @@ class IntroductionRoute extends _i6.PageRouteInfo<void> {
 /// generated route for
 /// [_i2.LoginPage]
 class LoginRoute extends _i6.PageRouteInfo<void> {
-  const LoginRoute() : super(LoginRoute.name, path: '/');
+  const LoginRoute() : super(LoginRoute.name, path: '/login-page');
 
   static const String name = 'LoginRoute';
 }

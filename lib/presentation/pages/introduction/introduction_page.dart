@@ -29,18 +29,12 @@ class IntroductionPage extends StatelessWidget {
       skipStyle: introductionScreensButtonStyle,
       nextStyle: introductionScreensButtonStyle,
       doneStyle: introductionScreensButtonStyle,
-      skip: Column(
-        children: [emptySpace, customButton(buttonText: skip)],
-      ),
-      next: Column(
-        children: [emptySpace, customButton(buttonText: next)],
-      ),
-      done: Column(
-        children: [emptySpace, customButton(buttonText: next)],
-      ),
       controlsPadding: controlsPadding,
       curve: Curves.fastLinearToSlowEaseIn,
       controlsMargin: const EdgeInsets.only(bottom: 50),
+      skip: const IntroductionScreenCustomButton(buttonText: skip),
+      next: const IntroductionScreenCustomButton(buttonText: next),
+      done: const IntroductionScreenCustomButton(buttonText: next),
       dotsDecorator: const DotsDecorator(
         color: dotsInactiveColor,
         activeColor: whiteColor,

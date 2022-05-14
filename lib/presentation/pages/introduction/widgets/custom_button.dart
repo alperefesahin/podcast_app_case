@@ -3,15 +3,25 @@ import 'package:crop_experience_agency_case/presentation/pages/introduction/cons
 import 'package:crop_experience_agency_case/presentation/pages/introduction/constants/paddings.dart';
 import 'package:flutter/material.dart';
 
-Container customButton({required String buttonText}) {
-  return Container(
-    padding: introductionScreenButtonsPadding,
-    decoration: const BoxDecoration(color: introductionScreenButtonsColor, borderRadius: BorderRadius.all(Radius.circular(25))),
-    child: AutoSizeText(
-      buttonText,
-      minFontSize: 17,
-      maxFontSize: 21,
-      style: const TextStyle(fontWeight: FontWeight.w600, color: whiteColor),
-    ),
-  );
+class IntroductionScreenCustomButton extends StatelessWidget {
+  const IntroductionScreenCustomButton({Key? key, required this.buttonText}) : super(key: key);
+  final String buttonText;
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        const SizedBox(height: 60),
+        Container(
+          padding: introductionScreenButtonsPadding,
+          decoration: const BoxDecoration(color: introductionScreenButtonsColor, borderRadius: BorderRadius.all(Radius.circular(25))),
+          child: AutoSizeText(
+            buttonText,
+            minFontSize: 17,
+            maxFontSize: 21,
+            style: const TextStyle(fontWeight: FontWeight.w600, color: whiteColor),
+          ),
+        ),
+      ],
+    );
+  }
 }
