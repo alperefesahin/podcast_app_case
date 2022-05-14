@@ -3,5 +3,4 @@ const String constantPodcastDetails =
 
 const String seeAllEpisode = "See all episode";
 const String podcast = "Podcast";
-
 const String play = "Play";
