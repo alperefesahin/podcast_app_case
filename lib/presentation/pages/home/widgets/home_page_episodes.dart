@@ -5,6 +5,7 @@ import 'package:crop_experience_agency_case/presentation/pages/home/widgets/home
 import 'package:crop_experience_agency_case/presentation/pages/home/widgets/linear_percentage_bar.dart';
 import 'package:crop_experience_agency_case/presentation/routes/router.gr.dart';
 import 'package:flutter/material.dart';
+import 'package:progress_indicators/progress_indicators.dart';
 
 class HomePageEpisodes extends StatelessWidget {
   const HomePageEpisodes({Key? key, required this.podcastData}) : super(key: key);
@@ -43,7 +44,7 @@ class HomePageEpisodes extends StatelessWidget {
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: CachedNetworkImage(
-                      placeholder: (context, url) => const CircularProgressIndicator(),
+                      placeholder: (context, url) => JumpingDotsProgressIndicator(fontSize: 40, color: percentageIndicatorForegroundColor),
                       imageUrl: podcastImageUrl,
                       imageBuilder: (context, imageProvider) => Container(
                         width: 120,
