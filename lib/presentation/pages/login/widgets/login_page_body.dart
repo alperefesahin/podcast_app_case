@@ -20,21 +20,27 @@ class LoginPageBody extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            textWidget(
-              padding: const EdgeInsets.only(top: 20.0, left: 25),
+            const LoginPageCustomText(
+              padding: EdgeInsets.only(top: 20.0, left: 25),
               text: loginText,
-              textStyle: const TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: whiteColor),
+              textStyle: TextStyle(fontWeight: FontWeight.bold, color: whiteColor),
+              maxFontSize: 33,
+              minFontSize: 30,
             ),
-            textWidget(
-              padding: const EdgeInsets.only(bottom: 8, top: 30.0, left: 25),
+            const LoginPageCustomText(
+              padding: EdgeInsets.only(bottom: 8, top: 30.0, left: 25),
               text: emailText,
-              textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.w400, color: whiteColor),
+              textStyle: TextStyle(fontWeight: FontWeight.w400, color: whiteColor),
+              maxFontSize: 20,
+              minFontSize: 18,
             ),
             EmailInputField(state: state),
-            textWidget(
-              padding: const EdgeInsets.only(top: 8, left: 25),
+            const LoginPageCustomText(
+              padding: EdgeInsets.only(top: 8, left: 25),
               text: passwordText,
-              textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.w400, color: whiteColor),
+              textStyle: TextStyle(fontWeight: FontWeight.w400, color: whiteColor),
+              maxFontSize: 20,
+              minFontSize: 18,
             ),
             PasswordInputField(state: state),
           ],
@@ -44,13 +50,7 @@ class LoginPageBody extends StatelessWidget {
           padding: const EdgeInsets.only(bottom: 50),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              const SignUpText(),
-              Padding(
-                padding: const EdgeInsets.only(right: 25),
-                child: LoginButton(state: state),
-              )
-            ],
+            children: [const SignUpText(), Padding(padding: const EdgeInsets.only(right: 25), child: LoginButton(state: state))],
           ),
         ),
       ],

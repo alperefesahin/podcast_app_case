@@ -1,6 +1,6 @@
-import 'package:auto_size_text/auto_size_text.dart';
 import 'package:crop_experience_agency_case/presentation/pages/login/constants/colors.dart';
 import 'package:crop_experience_agency_case/presentation/pages/login/constants/texts.dart';
+import 'package:crop_experience_agency_case/presentation/pages/login/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 
 class SignUpText extends StatelessWidget {
@@ -8,18 +8,14 @@ class SignUpText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(left: 25),
-      child: InkWell(
-        onTap: () {},
-        child: const AutoSizeText(
-          dontHaveTheAccountText,
-          style: TextStyle(
-            color: loginPageButtonColor,
-            fontSize: 16.5,
-            fontWeight: FontWeight.w400,
-          ),
-        ),
+    return InkWell(
+      onTap: () {},
+      child: const LoginPageCustomText(
+        padding: EdgeInsets.only(left: 25),
+        text: dontHaveTheAccountText,
+        textStyle: TextStyle(color: loginPageButtonColor, fontSize: 16.5, fontWeight: FontWeight.w400),
+        minFontSize: 16,
+        maxFontSize: 18,
       ),
     );
   }

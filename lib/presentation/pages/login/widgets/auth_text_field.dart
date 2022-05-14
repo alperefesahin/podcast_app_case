@@ -38,10 +38,7 @@ class AuthTextField extends StatelessWidget {
           hintStyle: const TextStyle(color: inputHintTextColor),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(borderRadiusCircularValue),
-            borderSide: const BorderSide(
-              width: 0,
-              style: BorderStyle.none,
-            ),
+            borderSide: const BorderSide(width: 0, style: BorderStyle.none),
           ),
           errorText: error,
           floatingLabelBehavior: FloatingLabelBehavior.never,

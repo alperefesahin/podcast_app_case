@@ -15,12 +15,13 @@ class LoginPage extends StatelessWidget {
       child: BlocBuilder<LoginCubit, LoginState>(
         builder: (context, state) => SafeArea(
           child: Scaffold(
-              resizeToAvoidBottomInset: false,
-              backgroundColor: pageBackgroundColor,
-              appBar: AppBarWidget(appBarActions: const []),
-              body: LoginPageBody(
-                state: state,
-              )),
+            resizeToAvoidBottomInset: false,
+            backgroundColor: pageBackgroundColor,
+            appBar: AppBarWidget(appBarActions: const []),
+            body: LoginPageBody(
+              state: state,
+            ),
+          ),
         ),
       ),
     );
