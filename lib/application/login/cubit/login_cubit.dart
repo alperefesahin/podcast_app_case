@@ -1,8 +1,9 @@
 import 'package:bloc/bloc.dart';
-import 'package:crop_experience_agency_case/domain/auth_models/email.dart';
-import 'package:crop_experience_agency_case/domain/auth_models/password.dart';
+
 import 'package:formz/formz.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:podcast_ui_application/domain/auth_models/email.dart';
+import 'package:podcast_ui_application/domain/auth_models/password.dart';
 
 part 'login_state.dart';
 part 'login_cubit.freezed.dart';

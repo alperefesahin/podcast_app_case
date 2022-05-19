@@ -1,6 +1,6 @@
 {
-    "name": "crop_experience_agency_case",
-    "short_name": "crop_experience_agency_case",
+    "name": "podcast_app_case",
+    "short_name": "podcast_app_case",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

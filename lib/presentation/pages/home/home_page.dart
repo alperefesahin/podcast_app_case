@@ -1,8 +1,8 @@
-import 'package:crop_experience_agency_case/infrastructure/api/api.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/custom_bottom_navigation_bar.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/home_page_body.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/infrastructure/api/api.dart';
+import 'package:podcast_ui_application/presentation/pages/home/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/custom_bottom_navigation_bar.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/home_page_body.dart';
 import 'package:progress_indicators/progress_indicators.dart';
 
 class HomePage extends StatelessWidget {

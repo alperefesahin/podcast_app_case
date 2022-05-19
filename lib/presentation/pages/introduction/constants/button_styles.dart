@@ -1,5 +1,5 @@
-import 'package:crop_experience_agency_case/presentation/pages/introduction/constants/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/introduction/constants/colors.dart';
 
 final introductionScreensButtonStyle = ButtonStyle(
   overlayColor: transparentColor,

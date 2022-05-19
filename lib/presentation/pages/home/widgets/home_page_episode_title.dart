@@ -1,6 +1,6 @@
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/constants/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/constants/colors.dart';
 
 class HomePageEpisodeTitle extends StatelessWidget {
   const HomePageEpisodeTitle({Key? key, required this.index, required this.podcastName}) : super(key: key);

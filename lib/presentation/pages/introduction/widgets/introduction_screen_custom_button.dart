@@ -1,6 +1,6 @@
-import 'package:crop_experience_agency_case/presentation/pages/introduction/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/introduction/widgets/introduction_screen_custom_text.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/introduction/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/introduction/widgets/introduction_screen_custom_text.dart';
 
 class IntroductionScreenCustomButton extends StatelessWidget {
   const IntroductionScreenCustomButton({Key? key, required this.buttonText}) : super(key: key);

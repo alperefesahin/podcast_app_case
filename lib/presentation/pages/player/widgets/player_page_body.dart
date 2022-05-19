@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/widgets/podcast_text.dart';
-import 'package:crop_experience_agency_case/presentation/pages/player/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/player/widgets/audio_action_buttons.dart';
-import 'package:crop_experience_agency_case/presentation/pages/player/widgets/audio_progress_bar.dart';
-import 'package:crop_experience_agency_case/presentation/pages/player/widgets/player_informations.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/widgets/podcast_text.dart';
+import 'package:podcast_ui_application/presentation/pages/player/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/player/widgets/audio_action_buttons.dart';
+import 'package:podcast_ui_application/presentation/pages/player/widgets/audio_progress_bar.dart';
+import 'package:podcast_ui_application/presentation/pages/player/widgets/player_informations.dart';
 
 class PlayerPageBody extends StatelessWidget {
   const PlayerPageBody({

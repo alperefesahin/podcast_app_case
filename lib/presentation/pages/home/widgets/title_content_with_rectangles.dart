@@ -1,5 +1,5 @@
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/colored_rectangle.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/colored_rectangle.dart';
 
 class TitleContentWithRectangles extends StatelessWidget {
   const TitleContentWithRectangles({Key? key, required this.height}) : super(key: key);

@@ -1,12 +1,12 @@
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/constants/texts.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/widgets/custom_icon_button.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/widgets/play_button.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/widgets/podcast_episodes.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/widgets/podcast_image_with_percentage.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/widgets/podcast_text.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/constants/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/constants/texts.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/widgets/custom_icon_button.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/widgets/play_button.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/widgets/podcast_episodes.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/widgets/podcast_image_with_percentage.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/widgets/podcast_text.dart';
 
 class EpisodeDetailsPageBody extends StatelessWidget {
   const EpisodeDetailsPageBody({

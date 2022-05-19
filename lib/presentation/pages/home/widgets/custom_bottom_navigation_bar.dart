@@ -1,7 +1,7 @@
-import 'package:crop_experience_agency_case/presentation/pages/home/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/constants/texts.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/home/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/home/constants/texts.dart';
 
 class CustomBottomNavigationBar extends StatelessWidget {
   const CustomBottomNavigationBar({Key? key}) : super(key: key);

@@ -1,7 +1,7 @@
-import 'package:crop_experience_agency_case/presentation/pages/player/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/player/widgets/audio_icon_button.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/player/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/player/widgets/audio_icon_button.dart';
 
 class AudioActionButtons extends StatelessWidget {
   const AudioActionButtons({Key? key}) : super(key: key);

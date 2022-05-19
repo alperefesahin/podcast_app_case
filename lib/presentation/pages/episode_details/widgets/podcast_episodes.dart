@@ -1,7 +1,7 @@
-import 'package:crop_experience_agency_case/infrastructure/api/api.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/widgets/custom_list_tile.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/infrastructure/api/api.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/widgets/custom_list_tile.dart';
 import 'package:progress_indicators/progress_indicators.dart';
 
 class PodcastEpisodes extends StatelessWidget {

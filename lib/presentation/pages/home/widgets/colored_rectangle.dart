@@ -1,5 +1,5 @@
-import 'package:crop_experience_agency_case/presentation/pages/home/constants/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/home/constants/colors.dart';
 
 class ColoredRectangle extends StatelessWidget {
   const ColoredRectangle({Key? key, required this.height, required this.width, required this.rightPadding, required this.bottomPadding, required this.topPadding}) : super(key: key);

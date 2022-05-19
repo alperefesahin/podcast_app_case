@@ -1,5 +1,5 @@
-import 'package:crop_experience_agency_case/presentation/pages/home/constants/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/home/constants/colors.dart';
 
 class GreenStraightLine extends StatelessWidget {
   const GreenStraightLine({Key? key}) : super(key: key);

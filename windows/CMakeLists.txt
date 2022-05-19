@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(crop_experience_agency_case LANGUAGES CXX)
+project(podcast_app_case LANGUAGES CXX)
 
-set(BINARY_NAME "crop_experience_agency_case")
+set(BINARY_NAME "podcast_app_case")
 
 cmake_policy(SET CMP0063 NEW)
 

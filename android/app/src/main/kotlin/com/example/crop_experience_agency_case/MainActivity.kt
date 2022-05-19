@@ -1,4 +1,4 @@
-package com.example.crop_experience_agency_case
+package com.example.podcast_app_case
 
 import io.flutter.embedding.android.FlutterActivity
 

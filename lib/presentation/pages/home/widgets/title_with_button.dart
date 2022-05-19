@@ -1,6 +1,6 @@
-import 'package:crop_experience_agency_case/presentation/pages/home/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/title_text.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/home/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/title_text.dart';
 
 class TitleWithButton extends StatelessWidget {
   const TitleWithButton({Key? key, required this.titleText}) : super(key: key);

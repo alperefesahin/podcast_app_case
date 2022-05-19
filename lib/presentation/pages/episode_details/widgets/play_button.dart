@@ -1,9 +1,9 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/constants/texts.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/widgets/podcast_text.dart';
-import 'package:crop_experience_agency_case/presentation/routes/router.gr.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/constants/texts.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/widgets/podcast_text.dart';
+import 'package:podcast_ui_application/presentation/routes/router.gr.dart';
 
 class PlayButton extends StatelessWidget {
   const PlayButton({

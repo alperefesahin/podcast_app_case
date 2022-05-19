@@ -1,14 +1,14 @@
-import 'package:crop_experience_agency_case/presentation/pages/home/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/constants/texts.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/colored_rectangle.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/home_page_episodes.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/green_straight_line.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/notification_icon.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/screen_tab.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/search_bar.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/title_with_button.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/title_content_with_rectangles.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/home/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/home/constants/texts.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/colored_rectangle.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/green_straight_line.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/home_page_episodes.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/notification_icon.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/screen_tab.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/search_bar.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/title_content_with_rectangles.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/title_with_button.dart';
 
 class HomePageBody extends StatelessWidget {
   const HomePageBody({Key? key, required this.podcastData}) : super(key: key);

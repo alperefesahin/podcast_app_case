@@ -1,11 +1,11 @@
-import 'package:crop_experience_agency_case/application/login/cubit/login_cubit.dart';
-import 'package:crop_experience_agency_case/presentation/pages/login/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/login/constants/texts.dart';
-import 'package:crop_experience_agency_case/presentation/pages/login/widgets/custom_text.dart';
-import 'package:crop_experience_agency_case/presentation/pages/login/widgets/input_fields.dart';
-import 'package:crop_experience_agency_case/presentation/pages/login/widgets/login_button.dart';
-import 'package:crop_experience_agency_case/presentation/pages/login/widgets/sign_up_text.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/application/login/cubit/login_cubit.dart';
+import 'package:podcast_ui_application/presentation/pages/login/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/login/constants/texts.dart';
+import 'package:podcast_ui_application/presentation/pages/login/widgets/custom_text.dart';
+import 'package:podcast_ui_application/presentation/pages/login/widgets/input_fields.dart';
+import 'package:podcast_ui_application/presentation/pages/login/widgets/login_button.dart';
+import 'package:podcast_ui_application/presentation/pages/login/widgets/sign_up_text.dart';
 
 class LoginPageBody extends StatelessWidget {
   const LoginPageBody({Key? key, required this.state}) : super(key: key);

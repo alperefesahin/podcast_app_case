@@ -1,10 +1,10 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/home_page_episode_title.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/linear_percentage_bar.dart';
-import 'package:crop_experience_agency_case/presentation/routes/router.gr.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/home/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/home_page_episode_title.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/linear_percentage_bar.dart';
+import 'package:podcast_ui_application/presentation/routes/router.gr.dart';
 import 'package:progress_indicators/progress_indicators.dart';
 
 class HomePageEpisodes extends StatelessWidget {

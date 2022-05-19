@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "crop_experience_agency_case" "\0"
+            VALUE "FileDescription", "podcast_app_case" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "crop_experience_agency_case" "\0"
+            VALUE "InternalName", "podcast_app_case" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "crop_experience_agency_case.exe" "\0"
-            VALUE "ProductName", "crop_experience_agency_case" "\0"
+            VALUE "OriginalFilename", "podcast_app_case.exe" "\0"
+            VALUE "ProductName", "podcast_app_case" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

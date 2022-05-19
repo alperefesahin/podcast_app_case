@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/widgets/custom_icon_button.dart';
-import 'package:crop_experience_agency_case/presentation/pages/home/widgets/linear_percentage_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/widgets/custom_icon_button.dart';
+import 'package:podcast_ui_application/presentation/pages/home/widgets/linear_percentage_bar.dart';
 
 class PodcastImageWithPercentageAndDownladingButton extends StatelessWidget {
   const PodcastImageWithPercentageAndDownladingButton({Key? key, required this.podcastImageUrl}) : super(key: key);

@@ -1,6 +1,6 @@
-import 'package:crop_experience_agency_case/presentation/pages/home/constants/texts.dart';
-import 'package:crop_experience_agency_case/presentation/pages/login/widgets/auth_text_field.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/home/constants/texts.dart';
+import 'package:podcast_ui_application/presentation/pages/login/widgets/auth_text_field.dart';
 
 class SearchBar extends StatelessWidget {
   const SearchBar({Key? key}) : super(key: key);

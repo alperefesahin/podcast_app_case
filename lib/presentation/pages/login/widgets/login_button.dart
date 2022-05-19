@@ -1,10 +1,10 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:crop_experience_agency_case/application/login/cubit/login_cubit.dart';
-import 'package:crop_experience_agency_case/presentation/pages/login/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/login/constants/texts.dart';
-import 'package:crop_experience_agency_case/presentation/pages/login/widgets/custom_text.dart';
-import 'package:crop_experience_agency_case/presentation/routes/router.gr.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/application/login/cubit/login_cubit.dart';
+import 'package:podcast_ui_application/presentation/pages/login/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/login/constants/texts.dart';
+import 'package:podcast_ui_application/presentation/pages/login/widgets/custom_text.dart';
+import 'package:podcast_ui_application/presentation/routes/router.gr.dart';
 
 class LoginButton extends StatelessWidget {
   const LoginButton({Key? key, required this.state}) : super(key: key);

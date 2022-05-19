@@ -1,10 +1,10 @@
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/widgets/custom_icon_button.dart';
-import 'package:crop_experience_agency_case/presentation/pages/player/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/player/constants/texts.dart';
-import 'package:crop_experience_agency_case/presentation/pages/player/widgets/app_bar.dart';
-import 'package:crop_experience_agency_case/presentation/pages/player/widgets/player_page_body.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/widgets/custom_icon_button.dart';
+import 'package:podcast_ui_application/presentation/pages/player/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/player/constants/texts.dart';
+import 'package:podcast_ui_application/presentation/pages/player/widgets/app_bar.dart';
+import 'package:podcast_ui_application/presentation/pages/player/widgets/player_page_body.dart';
 
 class PlayerPage extends StatelessWidget {
   const PlayerPage({

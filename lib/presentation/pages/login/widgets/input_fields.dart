@@ -1,11 +1,11 @@
-import 'package:crop_experience_agency_case/application/login/cubit/login_cubit.dart';
-import 'package:crop_experience_agency_case/presentation/pages/login/constants/texts.dart';
-import 'package:crop_experience_agency_case/presentation/pages/login/widgets/auth_text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 // ignore_for_file: unused_import
-import 'package:crop_experience_agency_case/domain/auth_models/email.dart';
-import 'package:crop_experience_agency_case/domain/auth_models/password.dart';
+import 'package:podcast_ui_application/domain/auth_models/email.dart';
+import 'package:podcast_ui_application/domain/auth_models/password.dart';
+import 'package:podcast_ui_application/application/login/cubit/login_cubit.dart';
+import 'package:podcast_ui_application/presentation/pages/login/constants/texts.dart';
+import 'package:podcast_ui_application/presentation/pages/login/widgets/auth_text_field.dart';
 
 class EmailInputField extends StatelessWidget {
   const EmailInputField({Key? key, required this.state}) : super(key: key);

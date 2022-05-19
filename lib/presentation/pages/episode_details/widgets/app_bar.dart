@@ -1,8 +1,9 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:crop_experience_agency_case/presentation/pages/episode_details/widgets/custom_icon_button.dart';
-import 'package:crop_experience_agency_case/presentation/pages/login/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/routes/router.gr.dart';
+
 import 'package:flutter/material.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/episode_details/widgets/custom_icon_button.dart';
+import 'package:podcast_ui_application/presentation/routes/router.gr.dart';
 
 class AppBarWidget extends StatelessWidget with PreferredSizeWidget {
   AppBarWidget({Key? key, required this.appBarActions})

@@ -1,8 +1,8 @@
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:crop_experience_agency_case/presentation/pages/player/constants/colors.dart';
-import 'package:crop_experience_agency_case/presentation/pages/player/constants/texts.dart';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
+import 'package:podcast_ui_application/presentation/pages/player/constants/colors.dart';
+import 'package:podcast_ui_application/presentation/pages/player/constants/texts.dart';
 
 class AudioPercentageBar extends StatelessWidget {
   const AudioPercentageBar({Key? key}) : super(key: key);
