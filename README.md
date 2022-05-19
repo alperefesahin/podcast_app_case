@@ -1,4 +1,5 @@
-# crop_experience_agency_case
+# Podcast App UI 
+ Recently, Some people wanted me to do an application which for mobile, and they sent me figma designs. I looked it, and I adapt it for Flutter.
 
  When login app, there is text validation (not a real authentication).
  
@@ -6,6 +7,10 @@
  
  Api: https://rickandmortyapi.com/api/character/
  
+ 
+ ## Figma
+ ![1652967203784](https://user-images.githubusercontent.com/67283777/169369947-bd3be292-e4aa-4d68-8108-eb7a26bed29a.jpeg)
+
  ## Screenshots from the app:
  
 ![1](https://user-images.githubusercontent.com/67283777/168426874-2119cd86-d5ba-4dc6-ba92-669f8f4afe3d.png)
